@@ -18,4 +18,4 @@ jobs:
         with:
           fail-on-severity: high
           # Use comma-separated names to pass list arguments:
-          allow-licenses: MIT, ISC OR BSD-2-Clause
+          allow-licenses: MIT, ISC ,BSD-2-Clause
