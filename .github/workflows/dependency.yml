@@ -14,7 +14,8 @@ jobs:
       - name: 'Checkout Repository'
         uses: actions/checkout@v4
       - name: Dependency Review
-        uses: actions/dependency-review-action@v4.3.4
+        uses: actions/dependency-review-action@v4.3.3
         with:
           fail-on-severity: high
-          allow-licenses: MIT, Apache-2.0
+          # Use comma-separated names to pass list arguments:
+          allow-licenses: MIT, 0BSD, MIT AND Apache-2.0
