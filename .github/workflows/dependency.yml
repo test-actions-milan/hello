@@ -18,4 +18,4 @@ jobs:
         with:
           fail-on-severity: high
           # Use comma-separated names to pass list arguments:
-          allow-licenses: "MIT, 0BSD, Apache-2.0"
+          allow-licenses: "MIT, 0BSD, MIT AND Apache-2.0"
