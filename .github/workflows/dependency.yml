@@ -17,5 +17,4 @@ jobs:
         uses: actions/dependency-review-action@v4.3.4
         with:
           fail-on-severity: high
-          # Use comma-separated names to pass list arguments:
-          allow-licenses: MIT, 0BSD, MIT AND Apache-2.0
+          allow-licenses: MIT AND Apache-2.0
