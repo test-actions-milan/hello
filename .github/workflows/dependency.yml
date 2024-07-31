@@ -17,4 +17,4 @@ jobs:
         with:
           fail-on-severity: high
           # Use comma-separated names to pass list arguments:
-          # allow-licenses: ISC, MIT, 0BSD, BSD-2-Clause, BSD-3-Clause, AFL-2.1, Apache-2.0, BSL-1.0, CC-BY-4.0, CC0-1.0, WTFPL, Python-2.0, Unlicense, W3C-20150513, Zlib, BSD-3-Clause AND MIT, MIT AND Zlib, MPL-2.0, MIT AND X11, ISC AND MIT, BSD-3-Clause AND MIT, BSD-3-Clause AND BSD-3-Clause-Clear
+          allow-licenses: ISC, MIT, 0BSD, BSD-2-Clause, BSD-3-Clause, AFL-2.1, Apache-2.0, BSL-1.0, CC-BY-4.0, CC0-1.0, WTFPL, Python-2.0, Unlicense, W3C-20150513, Zlib, BSD-3-Clause AND MIT, MIT AND Zlib, MPL-2.0, MIT AND X11, ISC AND MIT, BSD-3-Clause AND MIT, BSD-3-Clause AND BSD-3-Clause-Clear
